@@ -3,11 +3,11 @@
 :root {
   --green: #78f755;
   --dark-green: #3cd148;
-  --color-sky: #04acca;
+  --color-red: #fe5c5c;
   --text-dark: #1f2937;
   --text-light: #6b7280;
   --extra-light: #ebfdeb;
-  --max-width: 1300px;
+  --max-width: 1400px;
 }
 
 * {
@@ -29,7 +29,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #ebf7fb;
+  background-color: #d4fbd9;
   z-index: 99;
   border-bottom: 1px solid #aeb3ba;
 }
@@ -37,17 +37,17 @@ nav {
 .nav__content {
   max-width: var(--max-width);
   margin: auto;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 nav .logo a {
-  margin-left: 130px;
+
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--green);
+  color: var(--color-red);
   transition: 0.3s;
 }
 nav .logo a:hover {
@@ -86,9 +86,9 @@ ul li a {
 }
 
 ul li a:hover {
-  border-top-color: var(--color-sky);
-  border-bottom-color: var(--color-sky);
-  color: var(--color-sky);
+  border-top-color: var(--color-red);
+  border-bottom-color: var(--color-red);
+  color: var(--color-red);
 }
 
 .section {
@@ -129,7 +129,7 @@ ul li a:hover {
 }
 
 .title span {
-  color: var(--color-sky);
+  color: var(--color-red);
   font-weight: 600;
 }
 
@@ -182,6 +182,6 @@ ul li a:hover {
 }
 
 .image img {
-  width: min(25rem, 90%);
+  width: min(30rem, 90%);
   border-radius: 50%;
 }
